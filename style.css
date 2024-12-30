@@ -1,0 +1,81 @@
+body {
+    font-family: 'ubuntu', sans-serif;
+    background-color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+input:focus {
+    border-color: #66cc66;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f1f1f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #e0e0e0;
+}
+/* Media Query untuk perangkat dengan lebar layar 768px atau lebih kecil */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Mengatur container agar lebih lebar pada layar kecil */
+        margin-top: 20px; /* Menurunkan jarak atas untuk perangkat mobile */
+    }
+
+    h1 {
+        font-size: 24px; /* Menurunkan ukuran font untuk header di perangkat kecil */
+    }
+
+    input {
+        font-size: 14px; /* Menurunkan ukuran font input pada layar kecil */
+        padding: 8px; /* Mengurangi padding pada input untuk ruang yang lebih efisien */
+    }
+
+    h2 {
+        font-size: 18px; /* Mengurangi ukuran font h2 */
+    }
+
+    li {
+        font-size: 14px; /* Menurunkan ukuran font dalam list */
+        padding: 8px; /* Mengurangi padding dalam list */
+    }
+}
